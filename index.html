@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+
+<body>
+  <div class="calculator__container">
+    <div class="calculatorContainer__header">
+      <div class="calculatorContainerHeader__title text">calc</div>
+      <div class="calculatorContainerHeader__themes">
+        <div class="calculatorContainerHeaderThemes__title text">theme</div>
+        <div class="calculatorContainerHeaderThemes__button">
+          <div class="theme-numbers">
+            <div class="theme-number text">1</div>
+            <div class="theme-number text">2</div>
+            <div class="theme-number text">3</div>
+          </div>
+          <div class="calculatorContainerHeaderThemes__toggle keypadAndToggleBackgrounds">
+            <div class="calculatorContainerHeaderThemesToggle__selector selectorAndEqual"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="calculatorContainer__screen">
+      <div class="calculatorContainerScreen__result text">0</div>
+    </div>
+    <div class="calculatorContainer__keypad keypadAndToggleBackgrounds">
+      <div id="7" class="calculatorContainerKeypad__7 keys main-key main-key-theme1">7</div>
+      <div id="8" class="calculatorContainerKeypad__8 keys main-key main-key-theme1">8</div>
+      <div id="9" class="calculatorContainerKeypad__9 keys main-key main-key-theme1">9</div>
+      <div id="del" class="calculatorContainerKeypad__del keys key rem-key rem-key-theme1">del</div>
+      <div id="4" class="calculatorContainerKeypad__4 keys main-key main-key-theme1">4</div>
+      <div id="5" class="calculatorContainerKeypad__5 keys main-key main-key-theme1">5</div>
+      <div id="6" class="calculatorContainerKeypad__6 keys main-key main-key-theme1">6</div>
+      <div id="+" class="calculatorContainerKeypad__+ keys main-key main-key-theme1">+</div>
+      <div id="1" class="calculatorContainerKeypad__1 keys main-key main-key-theme1">1</div>
+      <div id="2" class="calculatorContainerKeypad__2 keys main-key main-key-theme1">2</div>
+      <div id="3" class="calculatorContainerKeypad__3 keys main-key main-key-theme1">3</div>
+      <div id="-" class="calculatorContainerKeypad__- keys main-key main-key-theme1">-</div>
+      <div id="dot" class="calculatorContainerKeypad__. keys main-key main-key-theme1">.</div>
+      <div id="0" class="calculatorContainerKeypad__0 keys main-key main-key-theme1">0</div>
+      <div id="/" class="calculatorContainerKeypad__/ keys main-key main-key-theme1">/</div>
+      <div id="*" class="calculatorContainerKeypad__x keys main-key main-key-theme1">x</div>
+      <div id="reset" class="calculatorContainerKeypad__reset keys rem-key rem-key-theme1">reset</div>
+      <div id="equal" class="calculatorContainerKeypad__equal keys equal-key selectorAndEqual equal-key-theme1">=</div>
+    </div>
+  </div>
+
+  <script src="app.js" async defer></script>
+</body>
+
+
+</html>
